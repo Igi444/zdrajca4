@@ -2,6 +2,8 @@ let a = document.querySelector(".pumpkin")
 let b = document.querySelector("body")
 let c = document.querySelector(".alert")
 let d = document.querySelector(".container")
+
+let e = new Audio('lmao.mp3')
 c.addEventListener("click", () => 
 {
 alert('"The world outside had its own rules, and those rules were not human."')
@@ -16,7 +18,7 @@ document.querySelector(".delet").addEventListener("click", () =>
     b.style.backgroundImage = "url('jeff.jpg')"
     b.style.backgroundRepeat = "no-repeat"
     b.style.backgroundSize = "cover"
-
+    e.play()
 })
 document.querySelector(".negative").addEventListener("click", () =>
 {
