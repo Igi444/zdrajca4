@@ -1,0 +1,106 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header
+{
+    width: 100vw;
+    height: 33vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: url("header.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+
+}
+.main
+{
+    width: 50vw;
+    height: 55vh;
+    background-color: white;
+    margin: 10px;
+    font-size: 1.25vh;
+}
+.footer
+{
+    width: 54vw;
+    height: 4vh;
+    background-color:rgb(42, 95, 156);
+    margin: 10px;
+    color: white;
+    font-size: 1.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button
+{
+    background-color: white;
+    color: black;
+    width: 9vw;
+    height: 4vh;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.25vh;
+}
+.button:hover
+{
+    background-color: rgb(42, 95, 156);
+    color: white;
+    cursor: pointer;
+}
+.menu
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.icon
+{
+    width: 2vw;
+    height: auto;
+}
+.pumpkin
+{
+    float: right;
+    width: 25vw;
+    height: auto;
+    cursor: pointer;
+}
+span
+{
+    color: red;
+    font-size: 3vh;
+    font-weight: bold;
+    margin: 15px;
+}
+h3
+{
+    margin: 15px;
+}
+.spin
+{
+    transform: rotate(1turn);
+    transition: 1s;
+}
+h1
+{
+position: absolute;
+top: 10rem;
+left: 60rem;
+}
